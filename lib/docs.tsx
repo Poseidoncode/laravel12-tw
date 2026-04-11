@@ -153,7 +153,7 @@ export async function getDocBySlug(slug: string): Promise<Doc | null> {
           [rehypeAutolinkHeadings, { behavior: 'wrap' }],
           [rehypeShiki, {
             theme: 'github-dark',
-            langs: ['php', 'javascript', 'typescript', 'bash', 'blade', 'json', 'html', 'css', 'sql', 'diff', 'tsx', 'jsx', 'vue']
+            langs: ['php', 'shell', 'blade', 'javascript', 'typescript', 'json', 'html', 'sql', 'yaml', 'ini', 'vue', 'jsx', 'tsx']
           }]
         ]
       }

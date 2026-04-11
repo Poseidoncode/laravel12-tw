@@ -58,14 +58,8 @@ export function TableOfContents({ items }: TocProps) {
             }
         })
 
-        return () => {
-            items.forEach((item) => {
-                const element = document.getElementById(item.id)
-                if (element) {
-                    observer.unobserve(element)
-                }
-            })
-        }
+        // Use disconnect() for cleaner cleanup instead of unobserve
+        return () => observer.disconnect()
     }, [items])
 
     if (items.length === 0) {

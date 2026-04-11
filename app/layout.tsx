@@ -8,10 +8,7 @@ const genryuSans = localFont({
   variable: "--font-genryu",
   display: "swap",
   src: [
-    { path: "../public/genryu/GenRyuMinTW-EL-01.woff2", weight: "200", style: "normal" },
-    { path: "../public/genryu/GenRyuMinTW-L-01.woff2", weight: "300", style: "normal" },
     { path: "../public/genryu/GenRyuMinTW-R-01.woff2", weight: "400", style: "normal" },
-    { path: "../public/genryu/GenRyuMinTW-M-01.woff2", weight: "500", style: "normal" },
     { path: "../public/genryu/GenRyuMinTW-SB-01.woff2", weight: "600", style: "normal" },
     { path: "../public/genryu/GenRyuMinTW-B-01.woff2", weight: "700", style: "normal" },
     { path: "../public/genryu/GenRyuMinTW-H-01.woff2", weight: "800", style: "normal" },
